@@ -6,7 +6,7 @@ authors = ["Nikolaj <nikolaj.v@itfox-web.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.11"
 django = "^4.1.5"
 psycopg2-binary = "^2.9.5"
 ipython = "^8.8.0"
@@ -20,15 +20,16 @@ django-celery-beat = "^2.4.0"
 django-cors-headers = "^3.13.0"
 django-extensions = "^3.2.1"
 django-filter = "^22.1"
+drf-spectacular = "^0.26.1"
 
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.2.1"
 pylint = "^2.15.10"
 pep8 = "^1.7.1"
-flake8 = "^6.0.0"
 neovim = "^0.3.1"
 isort = "^5.11.4"
+debugpy = "^1.6.6"
 
 [build-system]
 requires = ["poetry-core"]
